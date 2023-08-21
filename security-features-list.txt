@@ -1,0 +1,73 @@
+Patient-end security features that have been implemented:
+
+Secured Registration:
+
+- Strong Password verification
+- Complex CAPTCHA verification
+- Email OTP validation
+
+
+Patient Portal:
+
+- A login session will last only 15 minutes and then session ends automatically
+- Check Profile Details
+- Upload Health Appointment records
+-- File Checking for improper file types and viruses
+-- Saving files with Password protected ZIPs for enhanced security
+- Checking health Records
+-- Removing a past record
+-- Double verification
+
+
+
+Admin-end security features that have been implemented:
+
+Secured Login:
+- Complex CAPTCHA verification
+- Email OTP validation
+- 3 consecutive failed attempts will block user
+
+Admin Portal:
+
+- A login session will last only 30 minutes and then session ends automatically
+
+- Check Profile Details and Update Password
+
+- Check Patient Profiles
+-- Check profile Details
+-- Check Patient Health Records
+--- Check details of records
+--- Doctor details at 1-click
+--- Remove/re-Activate exisiting records (auto Email patients) 
+-- Ban/Unban profiles (auto Email patients) 
+-- Session durations
+--- Check Details
+--- Check IP addresses
+--- Check session duration charts
+--- Close active sessions with one click
+
+- Session Monitoring
+-- Check all active sessions for both Patient types and Admin types
+-- Close any active session with one click
+-- Check various charts for enhanced session monitoring
+
+- Patient enqueries
+-- Check all contact enquiries
+-- Reply to enquiries (auto Email patients) 
+
+- Security Configuration Manager
+-- Manage security settings
+-- Update various security parameters like session time, maximum concurrent user load etc. 
+
+Other Security features:
+- Keeping log of current login sessions along with IP address
+- Keeping log of malicious activities
+- More such features like this are implemented.
+- Security from SQL Injection attacks
+- Security from XSS attacks
+- Access Control Security
+
+
+Pending features:
+- Admin Check Security breach Logs
+- Patient can change password at login using FORGOT PASSWORD (this is already done, but it is not working due to some error)
